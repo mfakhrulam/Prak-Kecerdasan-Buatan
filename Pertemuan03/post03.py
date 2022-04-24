@@ -1,12 +1,13 @@
 from ai_pkg.search import Graph, Problem, Node
 from ai_pkg.utils import random, argmax_random_tie
 
-
 city_map = Graph(dict(
-	Oradea=dict(Oradea=0, Sibiu=24, Arad=59, Zerind=38),
-	Sibiu=dict(Oradea=34, Sibiu=0, Arad=51, Zerind=56),
-	Arad=dict(Oradea=59, Sibiu=51, Arad=0, Zerind=47),
-	Zerind=dict(Oradea=38, Sibiu=56, Arad=47, Zerind=0)),
+	Sibiu=dict(Sibiu=0, Faragas=99, Rimnicu=80, Craiova=175, Pitesti=143, Bucharest=232),
+	Faragas=dict(Sibiu=99, Faragas=0, Rimnicu=81, Craiova=169, Pitesti=82, Bucharest=211),
+	Rimnicu=dict(Sibiu=80, Faragas=81, Rimnicu=0, Craiova=146, Pitesti=97, Bucharest=186),
+	Craiova=dict(Sibiu=175, Faragas=169, Rimnicu=146, Craiova=0, Pitesti=138, Bucharest=152),
+	Pitesti=dict(Sibiu=143, Faragas=82, Rimnicu=97, Craiova=138, Pitesti=0, Bucharest=101),
+	Bucharest=dict(Sibiu=232, Faragas=211, Rimnicu=186, Craiova=152, Pitesti=101, Bucharest=0)),
 	directed=False)
 
 distances = {}
