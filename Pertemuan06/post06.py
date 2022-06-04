@@ -23,9 +23,9 @@ library = {
         ['At(Airport) & ~At(Home) & ~Have(Cash)']]
 }
 
-# prak
+# post
 goto_airport = HLA('Go(Home, Airport)', precond='At(Home)', effect='At(Airport) & ~At(Home)')
-problem = PlanProblem('At(Home) & Have(Cash) & Have(Car) ', 'At(Airport) & Have(Cash)', [goto_airport])
+problem = PlanProblem('At(Home) & Have(Cash)', 'At(Airport) & NotHave(Cash)', [goto_airport])
 
 solution = PlanProblem.hierarchical_search(problem, library)
 for i in range(0, len(solution)):
