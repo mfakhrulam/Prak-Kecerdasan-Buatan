@@ -1,0 +1,17 @@
+<Catalogue
+	CID = "1"
+	NextCID = "2">
+	<Files
+		CID = "1">
+		<FileInfo
+			ID = "82F17953-3EF6-4504-BE607559D24B55F6"
+			RelativePath = "prak11.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "prak10.gui"/>
+		<FileInfo
+			ID = "FF916194-CDC4-483F-85DA88750E1334D1"
+			RelativePath = "post11.gui"
+			OriginalRoot = "$Project"
+			OriginalPath = "post10.gui"/>
+	</Files>
+</Catalogue>

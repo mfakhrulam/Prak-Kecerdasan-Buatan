@@ -1,0 +1,19 @@
+<Workspace
+	CID = "1"
+	NextCID = "2"
+	IconCategory = "Miscellaneous">
+	<OpenFiles
+		CID = "1"
+		LastActive = "2">
+		<File
+			FileID = "82F17953-3EF6-4504-BE607559D24B55F6"
+			RootPath = "$Container"
+			RelativePathname = "prak11.gui"
+			ViewSettings = ""/>
+		<File
+			FileID = "FF916194-CDC4-483F-85DA88750E1334D1"
+			RootPath = "$Container"
+			RelativePathname = "post11.gui"
+			ViewSettings = ""/>
+	</OpenFiles>
+</Workspace>
